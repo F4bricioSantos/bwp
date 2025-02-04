@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+   padding: 0;
+}
+.content {
+    width: 100%;            
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 380px;
+    margin-top: 50px;
+}
+.header-text {
+    max-width: 40%;
+    margin-right: 80px;
+}
+.header-text h2, .header-text h3, .header-text h4 {
+    margin: 0;
+    padding: 0;
+}
+.header-text h2 {
+    margin-bottom: 10px;
+    font-size: 27px;
+
+}
+.header-text h3 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #4f4f4f;
+}
+.header-text h4 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+}
+.header-image {
+    height: 420px;
+    width: 420px;
+    text-align: center;
+}
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff;
+}
+textarea {
+    height: 120px;
+}
+.form-group.inline {
+    display: flex;
+    justify-content: space-between;
+}
+.form-group.inline > div {
+    flex: 1;
+    margin-right: 10px;
+}
+.form-group.inline > div:last-child {
+    margin-right: 0;
+}
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+.checkbox-group input {
+    margin-right: 10px;
+}
+.button-container {
+    text-align: center;
+}
+button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.form-group.attachment {
+    margin-bottom: 30px;
+}

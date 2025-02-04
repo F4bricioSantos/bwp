@@ -1,0 +1,131 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.conteiner{
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;   
+}
+.conteiner.dois{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-bottom: 22px;
+}
+h2{
+    color: #043865;
+    width: 352px;
+    height: 126px;
+    font-size: 33px;
+    max-width: 74%;
+}
+h3{
+    color: #32A6E6;
+    margin-bottom: 25px;
+    width: 531px;
+    height: 85px;
+}
+.cruzamos{
+    margin-bottom: 6px;
+    width: 583px;
+    height: 153px;
+    color: #6D6D6D;
+}
+.conteiner.tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #ebf0f2;
+    margin-bottom: 15px;
+
+}
+.miramoslonge{
+    color: #043865;
+    display: block;
+    line-height: 1.2;
+    position: relative;
+    font-size: 35px;
+    margin-top: 0;
+    width: 450px;
+}
+.seguimos{
+    width: 590px;
+    height: 102px;
+    color: #6D6D6D;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.conteiner.quatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nosune{
+    color: #043865;
+    display: block;
+    line-height: 1.3;
+    position: relative;
+    font-size: 27px;
+    margin: 0px 0px 35px 0px;
+    text-align: center;
+    width: 462px;
+    top: 27px;
+}
+.section.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: #EBF0F3;
+    width: 400px;
+    height: 230px;
+    padding: 50px 40px;
+    margin: 2rem 2rem;
+
+}
+.card div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.rumo{
+    color: #013B61;
+    font-size: 50px;
+    margin-right: 20px;    
+    margin-bottom: 8px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.rumo.u{
+    color: #32A6E6;
+}
+.rumo.m{
+    color: #7FE06C;
+}
+
+.titulo{
+    font-family: "OpenSans-Bold", sans-serif;
+    font-weight: bold;
+    color: #043865;
+    display: block;
+    line-height: 1.3;
+    position: relative;
+    font-size: 19px;
+    margin: 0 0;
+}
+.textos{
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #4F4F4F;
+    display: block;
+    line-height: 1.5;
+    position: relative;
+    font-size: 14px;
+    margin-top: 50px;
+    padding-right: 8px;
+}
